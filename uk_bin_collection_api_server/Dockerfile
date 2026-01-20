@@ -10,6 +10,6 @@ RUN apk add --no-cache gcc musl-dev libffi-dev openssl-dev \
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 9999
 
-CMD ["uvicorn", "server:create_app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["uvicorn", "server:create_app", "--host", "0.0.0.0", "--port", "9999"]

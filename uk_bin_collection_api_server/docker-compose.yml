@@ -4,7 +4,7 @@ services:
   ukbc_api_server:
     image: robbrad182/uk-bin-collection:latest
     ports:
-      - "8080:8080"  # Adjust the ports as needed
+      - "9999:9999"  # Adjust the ports as needed
     depends_on:
       - selenium
 
